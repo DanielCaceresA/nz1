@@ -1,0 +1,255 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
+
+:root {
+    --colorprimario1 : #ffffff;
+    --colorSecundario1: #212529;
+  
+    --colorprimario2 : #212529;
+    --colorSecundario2: #ffffff;
+  }
+
+.container1{
+
+    height: 72vh;
+    width: 100%;
+    background-color: var(--colorprimario1);
+
+}
+
+.ImageBannerTop{
+    
+    background-image: url(../Img/BannerTop1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72vh;
+    
+}
+
+.ImageBannerTopdark{
+
+    /* background: rgba(0, 0, 0, 0.377) url('../Img/BannerTop1.jpg');  */
+    /* background-image: rgba(182, 31, 31, 0.644) url(../Img/BannerTop1.jpg); */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.884), rgba(0, 0, 0, 0.144)), url('../Img/BannerTop1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: color-burn; */
+    background-position: center;
+    background-attachment: local;
+    
+    height: 80vh;
+    
+        
+}
+
+.banner2img{
+
+    /* background:  rgba(0, 0, 0, 0.397) url('../Img/Family1.jpg'); */
+    background: rgba(0, 0, 0, 0.459) url('../Img/Family1.jpg');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: local;
+
+    /* posicion*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.banner2img h1{
+
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0 0 4px rgb(70, 227, 255);
+    border-width: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgba(127, 255, 212, 0);
+    margin: 25px;
+}
+
+.banner2img p{
+
+    font-size: 2.3em;
+    color: rgb(139, 228, 255);
+    text-align: center;
+    font-weight: 500;
+
+}
+
+
+
+
+.navletras{
+
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navletras :hover{
+
+    
+    color: rgba(255, 255, 255, 0.808);
+}
+
+        /*Servicios 1*/
+
+.divsserv1{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ser1_text h5{
+    color: rgb(0, 19, 192);
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.ser1_text p{
+    color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+    justify-content: center;
+}
+
+
+.imgserv{
+
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+                    /* why us */
+
+.imgwhyus{
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SecTitl{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 100, 150); 
+    font-weight: 600; 
+    font-size: 3rem;
+}
+
+
+
+.banner1{
+
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgbannerC{
+
+    min-height: 400px;
+}
+
+.contenedor-externo {
+    position: relative; /* Establece la posición relativa para que el div interno pueda posicionarse correctamente */
+   
+  }
+  
+  .div-interno {
+    position: absolute; /* Establece la posición absoluta para que pueda posicionarse dentro del contenedor externo */
+    top: 50%; /* Ubica el div interno a la mitad de la altura del contenedor externo */
+    left: 10%; /* Ubica el div interno a la mitad del ancho del contenedor externo */
+    /* transform: translate(-50%, -50%); Centra el div interno exactamente en la parte superior media */
+    background-color: #1f1f1f77;
+    border-radius: 25px;
+  }
+
+
+
+
+.bgyellow{
+
+    background-color: darkkhaki;
+}
+
+.bgGreen{
+
+    background-color: rgb(27, 117, 0);
+}
+
+/*why us section*/
+
+.reasons{
+
+    color: rgb(0, 0, 138);
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.icons{
+    
+    color: rgb(207, 5, 5);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.reasons2{
+
+    color: rgb(55, 55, 231);
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+/*Footer*/
+
+.footer1{
+    
+    height: auto;
+    width: 100%;
+    background: rgb(251,251,251);
+    background: linear-gradient(75deg, rgb(0, 0, 0) 0%, rgb(22, 51, 90) 100%);
+    
+}
+
+.footerLogo{
+    color: #ffffff;
+}
+
+.footerLogo img{
+    
+    padding-left: 30%;
+}
+
+.footerInfo{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.footerInfo li{
+    padding: 5px;
+}
+
+
+.footerInfo_a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
